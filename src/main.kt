@@ -36,3 +36,8 @@ fun printAUpToZ(){
         println(i)
     }
 }
+// Aninymus Functions
+//var a:Int = 7
+//var b:Int = 8
+val f:(Int, Int) -> Int{a,b -> a+b}
+var f = {a:Int, b:Int -> a+b}
